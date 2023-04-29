@@ -60,11 +60,11 @@ console.log(evenSum());
 let arrDup = [2, 3, 5, 7, 4, 8, 5, 3, 2, 5];
 let add = 0;
 for (let i = 0; i < arrDup.length; i++) {
-    for (let j = i; j < arrDup.length; j++) {
+    for (let j = 1; j < arrDup.length; j++) {
         if (arrDup[i] == arrDup[i + j]) {
             add++;
         }
     }
 }
-console.log(count);
+console.log(add);
 
